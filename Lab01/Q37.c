@@ -9,7 +9,7 @@ void main()
     
     printf("The series is\n");
     
-    for(i=1;i<2*n;i++){
+    for(i=1;i<2*n+1;i++){
        if((i%2)==0){
        printf("%d ", i);
        }

@@ -1,26 +1,24 @@
 #include<stdio.h>
 
-int fac(int n);
-
 void main(){
+    int n,sum=0;
 
-    int n;
-    float sum=0;
-
-    printf("Enter number of terms\n");
+    printf("Enter number:\n");
     scanf("%d", &n);
 
-    for(float i=1;i<=n;i++){
-        sum=sum+(i/fac(i));
+    sum+=n;
+
+    while(n>=0){
+        printf("Enter number:\n");
+        scanf("%d", &n);
+        if(n>=0){
+           sum+=n;
+        }
+        else
+        break;
+        
     }
 
-    printf("%f", sum);
-}
+    printf("Sum=%d", sum);
 
-int fac(int n){
-    int fac=1;
-    for(int i=1;i<=n;i++){
-        fac*=i;
-    }
-    return fac;
 }
