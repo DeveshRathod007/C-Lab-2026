@@ -3,7 +3,7 @@
 void main(){
 
     for(int i=1;i<=5;i++){
-        printf("\n");
+      
         for(int j=1;j<=5;j++){
             if(j==i){
                 printf("1");
@@ -12,6 +12,7 @@ void main(){
                 printf("0");
             }
         }
-    
+        printf("\n");
+        
     }
 }

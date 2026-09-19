@@ -5,7 +5,7 @@ void main(){
     int n[10],odd=0;
 
     for(int i=1;i<=10;i++){
-        printf("Enter number:\n");
+        printf("Enter number %d:\n", i);
         scanf("%d", &n[i]);
     }
     for(int i=1;i<=10;i++){

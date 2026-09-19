@@ -3,7 +3,7 @@
 void main(){
 
     for(int i=1;i<=4;i++){
-        printf("\n");
+        
         for(int k=1;k<=4-i;k++){
             printf(" ");
         }
@@ -16,6 +16,8 @@ void main(){
                 break;
             }
         }
+        printf("\n");
+        
     
     }
 }
